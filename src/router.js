@@ -26,5 +26,10 @@ export default new Router({
         //     name: 'Nav',
         //     component: () => import('@/views/vuetify/NavExample.vue'),
         // },
+        {
+            path: '/forms',
+            name: 'Forms',
+            component: () => import('@/views/Forms.vue'),
+        },
     ],
 });
